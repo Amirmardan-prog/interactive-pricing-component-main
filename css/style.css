@@ -1,0 +1,120 @@
+body {
+  outline: 1px dotted black;
+  font-family: sans-serif;
+}
+
+.top_background img {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.work_area {
+  outline: 1px solid brown;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centeralized {
+  outline: 1px solid red;
+  text-align: center;
+  width: 60%;
+}
+
+.header_text {
+  display: block;
+  padding: 10%
+}
+
+.container {
+  outline: 1px solid green;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+/* ============ top container ============= */
+.top_container {
+  display: flex;
+  position: relative;
+}
+
+.cost {
+  position: absolute;
+  right: 5%;
+}
+
+.cost h1 {
+  display: inline;
+  /* right: 10%; */
+}
+
+.package p {
+  text-transform: uppercase;
+}
+
+/* ============ center ============= */
+.input_range input {
+  width: 100%;
+}
+
+.firstLine {
+  border-width: 1px;
+}
+
+
+/* ============ Footer ============= */
+.footer_container {
+  text-align: left;
+}
+
+.footer_container {
+  position: relative;
+}
+
+.footer_container button {
+  position: absolute;
+  right: 2%;
+}
+
+.footer_container button:hover {
+  color: gray;
+}
+
+/* ================ */
+.switch {
+  /* outline: 2px solid red; */
+  position: relative;
+  height: 20px;
+  width: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: hsl(174, 77%, 80%);
+  cursor: pointer;
+}
+.switch input{
+  position: absolute;
+  left: 0;
+  top:0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.switch .slider{
+  /* outline: 2px solid blue; */
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  top: 2px;
+  left: 3px;
+  transition: all 0.5s;
+}
+
+.switch input:checked + .slider{
+  transform: translateX(18px);
+}
