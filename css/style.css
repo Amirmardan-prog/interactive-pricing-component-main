@@ -57,10 +57,34 @@ body {
 }
 
 /* ============ center ============= */
-.input_range input {
+.input_range input[type="range"]{
   width: 100%;
 }
 
+#myInput {
+  appearance: none;
+  background-color: hsl(174, 77%, 80%);
+  height: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+#myInput::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/icon-slider.svg');
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  background-color: hsl(174, 86%, 45%);
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+#myInput::-webkit-slider-thumb:hover{
+  box-shadow: 0 0 10px hsl(174, 86%, 45%)
+}
 .firstLine {
   border-width: 1px;
 }
