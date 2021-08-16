@@ -1,5 +1,5 @@
 body {
-  outline: 1px dotted black;
+  /* outline: 1px dotted black; */
   font-family: sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .work_area {
-  outline: 1px solid brown;
+  /* outline: 1px solid brown; */
   min-height: 98vh;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
 }
 
 .centeralized {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   text-align: center;
   width: 60%;
 }
@@ -47,7 +47,7 @@ body {
 
 /* ============ top container ============= */
 .top_container {
-  outline: 1px solid green;
+  /* outline: 1px solid green; */
   display: flex;
   position: relative;
 }
@@ -195,7 +195,11 @@ body {
 /*  ============ Mobile screen ======= */
 
 @media (max-width: 400px){
+  .top_background img {
+    width: 100vw;
+    height: 80%;
 
+  }
   .footer_container button {
     position: relative;
     display: block;
