@@ -207,6 +207,10 @@ body {
     display: none
   }
 
+  .mobile{
+    display:inline-block;
+  }
+
   .top_container{
     flex-direction: column;
     padding-bottom: 1rem;
