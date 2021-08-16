@@ -15,7 +15,7 @@ for (var i = 0; i < n_input_range; i++) {
 document.querySelector(".switch").addEventListener("click", function() {
 
   if (document.getElementById("yealy_discount").checked === true) {
-    discount_apply = 0.25
+    discount_apply = 0.75
   } else if (document.getElementById("yealy_discount").checked === false) {
     discount_apply = 1.0
   }
